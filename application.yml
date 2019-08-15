@@ -4,11 +4,11 @@
     - dev
  ---
 spring:
-    profiles:dev
+    profiles: dev
     application:
         name:wscloud-config-dev
 ---
 spring:
-    profiles:test
+    profiles: test
     application:
         name:wscloud-config-test
